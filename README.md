@@ -1,3 +1,2 @@
 # EQUUS PROTOCOL
-Equus is a manual deflationary proof of stake (POS) token which aims to build a trust-less staking ecosystem. We want to build a self aware community who understands that it is very, very rare that investing in anything will make you rich in one day, instead our token is designed to reward holders daily, multiplying more the longer you hold.
-
+Equus is a manual deflationary proof of stake (PoS) token which aims to build a trust-less staking ecosystem. Our protocol offers a liquidity mining powered staking platform to our users; whereby they can stake their EQUUS tokens, mining FEL tokens in the process. Deposits and withdrawals to the staking platform will incur a 5% burn to the total transactional value of EQUUS staked by said user. 
