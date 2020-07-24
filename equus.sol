@@ -99,7 +99,7 @@ interface Staking {
 }
 
 contract EQUUSProtocol is IERC20, Staking {
-    string public constant name = "EQUUS";
+    string public constant name = "EQUUS Protocol";
     string public constant symbol = "EQUUS";
     uint8 public constant decimals = 18;
     
