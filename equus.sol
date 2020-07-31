@@ -1,4 +1,4 @@
-//EQUUS Protocol
+pragma solidity 0.7.0;
 
 // SafeMath library provided by the OpenZeppelin Group on Github
 // SPDX-License-Identifier: MIT
@@ -206,7 +206,7 @@ contract EQUUSProtocol is IERC20, Staking {
     
     /* Constant variables created for the ERC20 requirements*/
     
-    string public constant name = "EQUUSProtocol";
+    string public constant name = "EQUUS Protocol";
     string public constant symbol = "EQUUS";
     uint8 public constant decimals = 18;
     
