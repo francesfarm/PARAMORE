@@ -1,4 +1,4 @@
-pragma solidity 0.6.6;
+//EQUUS Protocol
 
 // SafeMath library provided by the OpenZeppelin Group on Github
 // SPDX-License-Identifier: MIT
