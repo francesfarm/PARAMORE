@@ -232,7 +232,7 @@ contract EQUUSProtocol is IERC20, Staking {
         totalSupply_ = 100000000 * (10 ^ decimals);
         balances[msg.sender] = totalSupply_;
         theowner = msg.sender;
-        //emit Transfer(msg.sender, msg.sender, totalSupply_);
+        emit Transfer(msg.sender, msg.sender, totalSupply_);
    } //Constructor stating the total supply as well as saving owner address and sending supply to owner address
    
    //Function to report on totalsupply following ERC20 Standard
