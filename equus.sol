@@ -229,7 +229,7 @@ contract EQUUSProtocol is IERC20, Staking {
     using SafeMath for uint256; //Important*** as this library provides security to handle maths without overflow attacks
     
     constructor() public {
-        totalSupply_ = 100000000 * (10 ^ decimals);
+        totalSupply_ = 100000000000000000000000000;
         balances[msg.sender] = totalSupply_;
         theowner = msg.sender;
         emit Transfer(msg.sender, msg.sender, totalSupply_);
