@@ -1,4 +1,4 @@
-pragma solidity ^0.6.6;
+pragma solidity 0.6.6;
 
 // SafeMath library provided by the OpenZeppelin Group on Github
 // SPDX-License-Identifier: MIT
