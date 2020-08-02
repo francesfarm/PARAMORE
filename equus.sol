@@ -206,8 +206,8 @@ contract EQUUSProtocol is IERC20, Staking {
     
     /* Constant variables created for the ERC20 requirements*/
     
-    string public constant name = "EQUUS Protocol";
-    string public constant symbol = "EQUUS";
+    string public constant name = "EQUUS Mining Token";
+    string public constant symbol = "EQMT";
     uint8 public constant decimals = 18;
     
     //Burn address saved as constant for future burning processes
