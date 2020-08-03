@@ -202,11 +202,11 @@ interface Staking {
 
 /*EQUUS Protocol being created with the help of the above interfaces for compatibility*/
 
-contract EQUUSProtocol is IERC20, Staking {
+contract EQUUSMiningToken is IERC20, Staking {
     
     /* Constant variables created for the ERC20 requirements*/
     
-    string public constant name = "EQUUS Mining Token";
+    string public constant name = "EQUUSMiningToken";
     string public constant symbol = "EQMT";
     uint8 public constant decimals = 18;
     
