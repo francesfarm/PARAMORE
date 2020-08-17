@@ -200,24 +200,24 @@ interface Staking {
 
 }
 
-/*EQUUS Protocol being created with the help of the above interfaces for compatibility*/
+/*PARAMORE Protocol being created with the help of the above interfaces for compatibility*/
 
-contract EQUUSMiningToken is IERC20, Staking {
+contract PARAMORE is IERC20, Staking {
     
     /* Constant variables created for the ERC20 requirements*/
     
-    string public constant name = "EQUUSMiningToken";
-    string public constant symbol = "EQMT";
+    string public constant name = "PARAMORE";
+    string public constant symbol = "PARA";
     uint8 public constant decimals = 18;
     
     //Burn address saved as constant for future burning processes
     address public constant burnaddress = 0x0000000000000000000000000000000000000000;
 
-    mapping(address => uint256) balances; //EQUUS balance for all network participants
+    mapping(address => uint256) balances; //PARA balance for all network participants
     
-    mapping(address => uint256) stakedbalances; //EQUUS stake balance to lock stakes
+    mapping(address => uint256) stakedbalances; //PARA stake balance to lock stakes
     
-    mapping(address => uint) staketimestamps; //EQUUS stake timestamp to record updates on staking for multipliers, this involves the idea that multipliers will reset upon staking
+    mapping(address => uint) staketimestamps; //PARA stake timestamp to record updates on staking for multipliers, this involves the idea that multipliers will reset upon staking
 
     mapping(address => mapping (address => uint256)) allowed; //Approval array to record delegation of thrid-party accounts to handle transaction per allowance
     
@@ -229,7 +229,7 @@ contract EQUUSMiningToken is IERC20, Staking {
     using SafeMath for uint256; //Important*** as this library provides security to handle maths without overflow attacks
     
     constructor() public {
-        totalSupply_ = 100000000000000000000000000;
+        totalSupply_ = 1000000000000000000000000;
         balances[msg.sender] = totalSupply_;
         theowner = msg.sender;
         emit Transfer(msg.sender, msg.sender, totalSupply_);
